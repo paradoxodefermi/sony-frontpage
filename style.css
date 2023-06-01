@@ -1,6 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing:* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: system-ui;
   font-weight: 600;
@@ -16,8 +19,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 header {
@@ -51,7 +54,7 @@ header {
 .menu a {
   text-decoration: none;
   color: #b8b4b4;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 
@@ -76,23 +79,24 @@ header {
 }
 
 .text-container p.small-text {
-  font-size: 10px;
+  font-size: 15px;
   color: #b8b4b4;
 }
 
 .text-container h1 {
-  font-size: 36px;
+  font-size: 56px;
   color: #b8b4b4;
 }
 
 .text-container p.medium-text {
-  font-size: 10px;
+  font-size: 24px;
   color: #b8b4b4;
 }
 
 .text-container p.smaller-text {
-  font-size: 10px;
+  font-size: 15px;
   color: #b8b4b4;
+  margin-left: 30px;
 }
 
 .headset-image {
